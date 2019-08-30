@@ -1,0 +1,21 @@
+ion-tab-bar{
+color: rgb(149, 149, 241);
+}
+ion-tab-button{
+    color: rgb(209, 209, 209);
+    --background-active: red;
+}
+ion-tab-bar{
+    
+    color: rgb(57, 57, 66);
+  --background: url(src/assets/Metal.png)!important;
+  --background-repeat: no-repeat;
+  --background-size:100% 100%;
+}
+ion-tab-button{
+    --color-selected: rgb(0, 0, 255);
+    --padding-start: auto;
+    --padding-bottom: auto;
+    --padding-end: auto;
+
+}
