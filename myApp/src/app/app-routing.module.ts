@@ -9,7 +9,8 @@ const routes: Routes = [
   { path: 'terms-and-conditions', loadChildren: './Pages/terms-and-conditions/terms-and-conditions.module#TermsAndConditionsPageModule' },
   { path: 'supported-crytocurrency', loadChildren: './Pages/supported-crytocurrency/supported-crytocurrency.module#SupportedCrytocurrencyPageModule' },
   { path: 'help-and-support', loadChildren: './Pages/help-and-support/help-and-support.module#HelpAndSupportPageModule' },
-  { path: 'about-us', loadChildren: './Pages/about-us/about-us.module#AboutUsPageModule' }
+  { path: 'about-us', loadChildren: './Pages/about-us/about-us.module#AboutUsPageModule' },
+  { path: 'sign-in', loadChildren: './External-Pages/sign-in/sign-in.module#SignInPageModule' }
   
 ];
 @NgModule({
